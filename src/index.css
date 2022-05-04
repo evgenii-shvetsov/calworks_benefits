@@ -111,10 +111,6 @@ input[type="reset"], input[type="submit"]{
 .calworksLink{
   text-decoration: underline !important;
 }
-.linkCenter{
-  text-align: center;
- 
-}
 
 
 .submitBTN:active{
