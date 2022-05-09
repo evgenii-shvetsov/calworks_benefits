@@ -4,16 +4,19 @@
 
 **Main screen of the calculator:**
 
-<img width="500" alt="main_screen" src="https://user-images.githubusercontent.com/46214277/166624707-b068a617-e7ef-4fd1-9f08-0587157d9cc5.png">
+![empty_form](https://user-images.githubusercontent.com/46214277/167514192-8eefd552-5cfe-4b1b-92da-713a4f65d11e.png)
+
 
 
 **Available benefits:**
 
-<img width="500" alt="some_benefits" src="https://user-images.githubusercontent.com/46214277/166624749-f192df5f-9232-41ce-b1a7-6f34f73167ae.png">
+![submitted_form_with_benefits](https://user-images.githubusercontent.com/46214277/167514216-230cd635-1a44-441c-bf6d-c65b9e22bc09.png)
+
 
 **No benefits screen:**
 
-<img width="500" alt="no_benefits" src="https://user-images.githubusercontent.com/46214277/166624801-a536b294-00f5-48d6-a2c2-3d7ac65ab3b3.png">
+![submitted_form_without_benefits](https://user-images.githubusercontent.com/46214277/167514242-46dbc78b-e2c7-4dc4-893c-ded49cf4fe3a.png)
+
 
 **Available Scripts**
 
