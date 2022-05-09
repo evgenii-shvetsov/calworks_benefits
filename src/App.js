@@ -1,5 +1,8 @@
 import { useState, useEffect } from "react";
 import benefits from "./benefitsTable";
+import options from "./options";
+import Tippy from '@tippy.js/react'
+import 'tippy.js/dist/tippy.css'
 
 export default function MyForm() {
   const [inputs, setInputs] = useState({});
@@ -23,7 +26,16 @@ export default function MyForm() {
   let result = (
     <div>
         {(actualBenefit > 0) ? 
-        <h2>Total Eligible Cash Benefit: <span className="actualBenefit">${actualBenefit}</span></h2>: 
+        <div>
+        <h2>Total Eligible Cash Benefit: <span className="actualBenefit">${actualBenefit}</span></h2> <p className="linkCenter">Apply online: 
+        
+        <a href="https://benefitscal.com/ApplyForBenefits/ABOVR" className="calworksLink" target='_blank' rel ='noopener noreferrer'> BenefitsCal.com </a> or 
+      
+        <a className="calworksLink" href="https://www.cdss.ca.gov/county-offices" target='_blank'  rel="noopener noreferrer"> contact your county social services agency</a> in your county. </p>
+        </div>
+        
+        : 
+
         <h2>You are not eligible for cash benefits, but you are eligible for other <a className="calworksLink" href="https://www.cdss.ca.gov/inforesources/calworks" target="_blank" rel="noopener noreferrer">CalWORKs benefits</a>.</h2>}
     </div>
   );
@@ -69,7 +81,7 @@ export default function MyForm() {
     //benefitsCalc();
     setFinalResult(false); // doesn't show the modified result after the first submit click  
     
-    //console.log(inputs)
+    console.log(inputs)
   };
 
 
@@ -102,7 +114,7 @@ export default function MyForm() {
     <section className="main">
       <div className="wrapper">
         <h2>CalWORKs Cash Benefit Calculator</h2>
-        <p>Please input information to calculate how much cash benefit you can receive from CalWORKs</p>
+        {disableBtn ? <p>Thank you for submitting the form</p> : <p>Please input information to calculate how much cash benefit you can receive from CalWORKs</p> }
 
         <form
           className="formStyle"
@@ -123,7 +135,9 @@ export default function MyForm() {
           </label>
 
           <label>
-            How many family members receive SSI funds?
+            How many family members receive 
+            <Tippy content='Supplemental Security Income'><span style={{fontStyle: 'italic', textDecoration:'underline'}}> SSI </span></Tippy>
+            funds?
             <input className="inputValue shortNum"
               type="number"
               name="ssiRecipients"
@@ -143,10 +157,13 @@ export default function MyForm() {
               onChange={handleChange}
               defaultValue={""}
               required>
-              
-             
+
+              {options.map((option)=>(
+                <option key ={option.value} value={option.value}>{option.lable}</option>
+              ))}
+             </select>
             
-            
+            {/** 
               <option value="" disabled hidden>
                 Select an Option
               </option>
@@ -167,7 +184,7 @@ export default function MyForm() {
               <option value="Sonoma">Sonoma</option>
               <option value="Ventura">Ventura</option>
               <option value="Other">Other</option> 
-              </select>
+              </select>*/}
           </label>
 
           <label>
