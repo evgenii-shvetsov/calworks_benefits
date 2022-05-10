@@ -1,3 +1,21 @@
+#CalWORKs Cash Benefit Calculator
+[Sf Living Wage Coalition](https://www.livingwage-sf.org/) is a non profit organization engaged in transformative thinking of the economy for a more livable, healthy, and prosperous community.
+
+CalWORKS is a public assistance program, that provides cash aid for eligible families. This calculator allows users to check if they are eligible for extra benefits from the government.
+
+*The program was embed onto WordPress page using ReactPress plugin 
+*User Interface was built using JavaScript library React.
+
+Here is the link to the San Francisco Living Wage Coalition website:
+
+https://www.livingwage-sf.org/calworks_cash_benefit_calculator/
+
+
+
+
+
+
+
 **CalWorks Cash Benefit Calculator**
 
 **https://www.livingwage-sf.org/calworks_cash_benefit_calculator/**
