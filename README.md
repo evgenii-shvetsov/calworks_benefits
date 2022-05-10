@@ -1,6 +1,6 @@
                     **CalWORKs Cash Benefit Calculator**
                                                          
-CalWORKS is a public assistance program, that provides cash aid for eligible families.
+CalWORKS is a public assistance program, that provides cash aid for eligible families. <br>
 This calculator is a tool that allows users to check if they are eligible for extra benefits from the government. 
 
 * The program was embed onto WordPress page using ReactPress plugin</br>
@@ -12,7 +12,8 @@ Here is the link to the San Francisco Living Wage Coalition website:
 
 **Empty form of the calculator:**
 
-![empty_form](https://user-images.githubusercontent.com/46214277/167514192-8eefd552-5cfe-4b1b-92da-713a4f65d11e.png)
+<img ![empty_form](https://user-images.githubusercontent.com/46214277/167514192-8eefd552-5cfe-4b1b-92da-713a4f65d11e.png) width= 
+'500'>
 
 
 **Submitted form with available benefits:**
