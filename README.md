@@ -12,7 +12,7 @@ Here is the link to the San Francisco Living Wage Coalition website:
 
 **Empty form of the calculator:**
 
-![empty_form](https://user-images.githubusercontent.com/46214277/167514192-8eefd552-5cfe-4b1b-92da-713a4f65d11e.png width='500')
+![empty_form width='500'](https://user-images.githubusercontent.com/46214277/167514192-8eefd552-5cfe-4b1b-92da-713a4f65d11e.png)
 
 
 **Submitted form with available benefits:**
