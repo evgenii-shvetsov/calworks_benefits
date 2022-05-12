@@ -80,8 +80,7 @@ export default function MyForm() {
     setFamilySizeExcludeSsiRecipients(inputs.familySize - inputs.ssiRecipients);
     //benefitsCalc();
     setFinalResult(false); // doesn't show the modified result after the first submit click  
-    
-    console.log(inputs)
+    //console.log(inputs)
   };
 
 
@@ -162,29 +161,7 @@ export default function MyForm() {
                 <option key ={option.value} value={option.value}>{option.lable}</option>
               ))}
              </select>
-            
-            {/** 
-              <option value="" disabled hidden>
-                Select an Option
-              </option>
-              <option value="Alameda">Alameda</option>
-              <option value="Contra Costa">Contra Costa</option>
-              <option value="Los Angeles">Los Angeles</option>
-              <option value="Marin">Marin</option>
-              <option value="Monterey">Monterey</option>
-              <option value="Napa">Napa</option>
-              <option value="Orange">Orange</option>
-              <option value="San Diego">San Diego</option>
-              <option value="San Francisco">San Francisco</option>
-              <option value="San Luis Obispo">San Luis Obispo</option>
-              <option value="San Mateo">San Mateo</option>
-              <option value="Santa Barbara">Santa Barbara</option>
-              <option value="Santa Clara">Santa Clara</option>
-              <option value="Santa Cruz">Santa Cruz</option>
-              <option value="Sonoma">Sonoma</option>
-              <option value="Ventura">Ventura</option>
-              <option value="Other">Other</option> 
-              </select>*/}
+
           </label>
 
           <label>
